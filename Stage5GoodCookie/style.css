@@ -1,0 +1,77 @@
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #190361, #BB00FF);
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+}
+main {
+    width: 42.8rem;
+    margin: 0 auto;
+    
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    
+    
+}
+p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+}
+h1, p {
+    color: #34355B;
+}
+img{
+    margin-top: 2.0rem;
+}
+.screen1, .screen2{
+    background-color: #fff;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    border-radius: .5rem;
+    box-shadow: 7px 7px 30px black;
+}
+.screen1 button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.card { 
+    margin: 1.7rem 0;
+}
+.card p{
+    font-family: 'Dancing Script', sans-serif ;
+    font-size: 2.4rem;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 0;
+    background-color: #E4EDF1;
+    box-shadow: 3px 3px 6px rgba(0,0,0,.5);
+}
+.screen2 button {
+    padding: 1.6rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF9500 ;
+    border-radius: .4rem;
+    border: none;
+    cursor: pointer;
+}
